@@ -26,6 +26,8 @@ void MyGPIO_Set ( GPIO_TypeDef * GPIO , char Pin ) ; //Passe le Pin séléctionné 
 void MyGPIO_Reset ( GPIO_TypeDef * GPIO , char Pin ) ; //Passe le Pin séléctionné à 0
 
 void MyGPIO_Toggle ( GPIO_TypeDef * GPIO , char Pin ) ; //Change le Pin d'état
+
+void Test (void); //Procedure de test des pins et modes
 #endif
 
 //void Test (); //TEST
